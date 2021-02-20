@@ -61,7 +61,7 @@ guessBtn.addEventListener('click',function(){
             // Clear Input
             guessInput.value = '';
 
-            // Tell user its the wrong numberGuesser
+            // Tell player its the wrong numberGuesser
             setMessage(`${guess} is not correct, ${guessesLeft} guesses left`, 'red');
         }
     }
